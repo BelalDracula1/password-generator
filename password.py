@@ -27,7 +27,7 @@ def generate():
 result = StringVar()
 number_input = ttk.Entry(root, textvariable = result, font=('Tahoma',30,'bold'),justify='center',width=20)
 number_input.pack(padx=10,pady=10,ipadx=10,ipady=10)
-btn_result = ttk.Button(root,text = 'Generator Password',command=generate)
+btn_result = ttk.Button(root,text = 'Generator New Password',command=generate)
 btn_result.pack(padx=10,pady=10,ipadx=10,ipady=10)
 
 generate()
